@@ -1,0 +1,24 @@
+gpu = true
+test = false
+show = true
+data_name = "ptb"
+
+[init]
+lr = 0.01
+hidVal = 0.1
+weight_std = 0.05
+
+[dirs]
+data_dir = "data"
+checkpoint_dir = "checkpoints"
+
+[model]
+hop = 3
+edim = 150
+lindim = 75
+epoch = 5
+max_grad_norm = 50
+
+[size]
+mem = 100
+batch = 128

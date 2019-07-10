@@ -1,0 +1,10 @@
+test*
+.idea/
+.DS_Store
+tmp/
+.pytest_cache/
+build/
+dist/
+gx_toml.egg-info/
+gxtoml.egg-info/
+MANIFEST.in
