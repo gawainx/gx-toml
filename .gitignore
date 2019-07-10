@@ -8,3 +8,5 @@ dist/
 gx_toml.egg-info/
 gxtoml.egg-info/
 MANIFEST.in
+*.pyc
+__pycache__
